@@ -1,0 +1,155 @@
+/* 72 - 96 - 150 - 300 */
+/*
+A3	842 x 1191	1123 x 1587	1754 x 2480	3508 x 4960
+A4	595 x 842	794 x 1123	1240 x 1754	2480 x 3508
+A5	420 x 595	559 x 794	874 x 1240	1748 x 2480
+*/
+
+/* 72  */
+/*
+A3	842 x 1191	
+A4	595 x 842	
+A5	420 x 595	
+*/
+
+/* 96 */
+
+/*
+A3	1123 x 1587	
+A4	794 x 1123	
+A5	559 x 794	
+*/
+
+/*  150 */
+
+/*
+A3	1754 x 2480	
+A4	1240 x 1754	
+A5	874 x 1240	
+*/
+
+/* 300 */
+
+/*
+A3	3508 x 4960
+A4	2480 x 3508
+A5	1748 x 2480
+*/
+
+/*72 DPI*/
+@page { size: A4 portreit  } /*landscape*/
+
+.a4{
+	width:595px;
+	height: 842px
+
+}
+
+.a3{
+	width:842px;
+	height: 1191px
+
+}
+
+.a5{
+	width:420px;
+	height: 595px
+
+}
+
+
+
+
+
+.ruler {
+    width: 100%;
+    font-size: 10px;
+    height: 15px;
+    background: #eee;
+    color: #000;
+    font-family: arial;
+    overflow: hidden;
+    z-index: 19;
+    position: absolute;
+    /*position: fixed;*/
+}
+
+.a4 {
+    overflow: hidden
+}
+
+.ruler>div {
+    display: inline-block;
+    background: #00db5f;
+}
+
+.ruler .tickLabel {
+    position: relative;
+    top: -1px;
+    text-align: center;
+    margin-left: 4px;
+    width: 1px;
+    height: 100%;
+    text-indent: 1px;
+}
+
+.ruler .tickLabel:first-of-type {
+    margin-left: 0px;
+}
+
+.ruler .tickMajor {
+    margin-left: 4px;
+    width: 1px;
+    height: 4px;
+    visibility: hidden;
+}
+
+.ruler .tickMinor {
+    margin-left: 4px;
+    width: 1px;
+    /*visibility: hidden;*/
+    /*height: 2px;*/
+    margin-top: 10px;
+}
+
+
+.rulerVertic {
+    /*    font-size: 12px; 
+    height: 25px;*/
+    font-size: 10px;
+    /*transform: rotate(-90deg);*/
+    height: 845px;
+    width: 15px;
+    background: #eee;
+    position: absolute;
+    color: #000;
+    font-family: arial;
+    /*display: none*/
+}
+
+.rulerVertic>div {
+    display: inline-block;
+    background: lightgreen;
+    height: 5px;
+}
+
+.rulerVertic .tickLabel {
+    position: relative;
+    left: -1px;
+    text-align: center;
+    margin-top: 4px;
+    height: 1px;
+    width: 100%;
+    text-indent: 1px;
+}
+
+.rulerVertic .tickMinor {
+    margin-top: 4px;
+    height: 1px;
+    visibility: hidden;
+    width: 2px;
+    margin-top: 20px;
+}
+
+
+

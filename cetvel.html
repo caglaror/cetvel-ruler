@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="cetvel.css">
+</head>
+<body>
+  
+<page size="A4" id="alan" class="dene"></page>
+<page size="A4"></page>
+<page size="A4"></page>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="cetvel.js"></script>
+<script src="cetvel.js"></script>
+
+<script>
+    $('.dene').cetvel({
+      'ust': '#ruler',
+
+
+    })
+
+  </script>
+<style>
+body {
+  background: rgb(204,204,204); 
+}
+/*
+@page{
+  size:a4 portreit;
+}*/
+page[size="A4"] {
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+@media print {
+  body, page[size="A4"] {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+</style>
+
+</body>
+</html>

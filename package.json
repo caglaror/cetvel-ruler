@@ -1,0 +1,19 @@
+{
+  "name": "cetvel",
+  "version": "1.0.0",
+  "description": "Cetvel eklentisi",
+  "main": "cetvel.js",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cetvel",
+    "ruler"
+  ],
+  "author": "Mustafa TOK",
+  "license": "MIT"
+}
