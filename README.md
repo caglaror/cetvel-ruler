@@ -12,8 +12,9 @@ Bir cetvel uygulaması. Cetvel ayarlamaları için bir JQuery eklentisi.
  5. Yatay ve dikey seçimlerini selectboxlar üzerinden ayarlama
  6. Konum değerlerini alma
  
+	
 **// ÖRNEK KULLANIM**
- 
+ ![enter image description here](https://raw.githubusercontent.com/hacicavcav/cetvel-ruler/master/kaynak/cetvelRuler.png)
 
     $('#element').cetvel({
 	    'ust':'#top',
