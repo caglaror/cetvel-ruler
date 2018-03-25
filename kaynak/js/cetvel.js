@@ -119,7 +119,7 @@
 //     $('#alan')
 //     .addClass('a'+ebat+'-yatay')
 
-}
+// }
 
 
 
