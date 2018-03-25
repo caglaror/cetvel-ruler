@@ -14,7 +14,8 @@ Bir cetvel uygulaması. Cetvel ayarlamaları için bir JQuery eklentisi.
  
 	
 **// ÖRNEK KULLANIM**
- ![enter image description here](https://raw.githubusercontent.com/hacicavcav/cetvel-ruler/master/kaynak/cetvelRuler.png)
+
+ ![Cetvel](https://raw.githubusercontent.com/hacicavcav/cetvel-ruler/master/kaynak/cetvelRuler.png)
 
     $('#element').cetvel({
 	    'ust':'#top',
